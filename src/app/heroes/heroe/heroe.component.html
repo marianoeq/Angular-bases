@@ -1,0 +1,17 @@
+<h1>Lista Heroes</h1>
+
+<dl>
+    <td>
+        Nombre:
+    </td>
+    <dd>{{nombre}}</dd>
+    <td>Edad:</td>
+    <dd>{{edad}}</dd>
+    <td>Funcion:</td>
+    <dd>{{obtenerNombre()}}</dd>
+    <td>Capitalize</td>
+    <dd>{{heroUpperCase}}</dd>
+</dl>
+
+<button (click)="changeName()">Cambiar Nombre</button>
+<button (click)="changeEdad()">Cambiar Edad</button>

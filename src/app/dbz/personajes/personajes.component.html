@@ -1,0 +1,7 @@
+<p>Personaje:</p>
+<hr>
+<ul *ngFor="let personaje of personajes">
+                                          <!-- v is called pipe.The followed value changes the view of the data.EX: number in this case express this 20000 onto 20,000 -->
+  <li>{{personaje.nombre}} - {{personaje.poder | number}}</li>
+
+</ul>
